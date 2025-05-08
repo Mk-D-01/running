@@ -1,0 +1,60 @@
+[gd_scene load_steps=8 format=3 uid="uid://cj3sesg5tfs58"]
+
+[ext_resource type="Script" uid="uid://chnumfct82qeu" path="res://Scenes/ball/ball.gd" id="1_680aq"]
+[ext_resource type="Texture2D" uid="uid://dhgjxyk2dxb2f" path="res://Asets/background_set/M1011.png" id="1_rvw15"]
+[ext_resource type="Texture2D" uid="uid://dfvrjc26bykrj" path="res://Asets/gamepad/switch_minus.96dpi.png" id="3_0x5sg"]
+[ext_resource type="Texture2D" uid="uid://b2s3wl5gfbvb" path="res://Asets/gamepad/ps_triangle.96dpi.png" id="3_olr4i"]
+[ext_resource type="Texture2D" uid="uid://dk10pa1ea8h8o" path="res://Asets/gamepad/switch_plus.96dpi.png" id="4_n814c"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_680aq"]
+friction = 0.2
+bounce = 0.8
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0x5sg"]
+
+[node name="Ball" type="RigidBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_680aq")
+script = ExtResource("1_680aq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(48.1638, 0)
+scale = Vector2(1.82421, 1.82421)
+shape = SubResource("CircleShape2D_0x5sg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 2
+position = Vector2(48.1638, 0)
+scale = Vector2(0.0787647, 0.0787647)
+texture = ExtResource("1_rvw15")
+
+[node name="jump_timer" type="Timer" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="camera_shift" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 282.0
+offset_top = -292.0
+offset_right = 325.0
+offset_bottom = -243.0
+text = "Score : 0
+"
+
+[node name="Controls" type="Node2D" parent="."]
+z_index = 10
+
+[node name="j" type="TouchScreenButton" parent="Controls"]
+position = Vector2(-434, 170)
+texture_normal = ExtResource("3_olr4i")
+
+[node name="L" type="TouchScreenButton" parent="Controls"]
+position = Vector2(299, 170)
+texture_normal = ExtResource("3_0x5sg")
+
+[node name="R" type="TouchScreenButton" parent="Controls"]
+position = Vector2(434, 170)
+texture_normal = ExtResource("4_n814c")
+
+[connection signal="timeout" from="jump_timer" to="." method="_on_jump_timer_timeout"]
+[connection signal="timeout" from="camera_shift" to="." method="_on_camera_shift_timeout"]
