@@ -44,7 +44,6 @@ func _physics_process(delta):
 	if Input.is_action_pressed("sh"):
 		angular_velocity *= 0.93
 	if Input.is_action_just_pressed("sc"):
-		print('ok')
 		up_score(1)
 		
 func up_score(x:int):
@@ -65,13 +64,11 @@ func _process(delta):
 
 func _on_blue():
 	up_score(10)
-	print('blue')
 
 
 func _on_jump_timer_timeout():
 	jump = true
 	
 func _hit(x):
-	print('hit')
 	hearts -= x
 	label.text = 'Score : ' + str(score) + ' Heart : ' + str(hearts)

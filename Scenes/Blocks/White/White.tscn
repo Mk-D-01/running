@@ -3,7 +3,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xh8te"]
 size = Vector2(38, 38)
 
-[node name="White" type="Node2D"]
+[node name="White" type="Node2D" groups=["block"]]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 texture_filter = 1
@@ -12,8 +12,8 @@ offset_top = -20.0
 offset_right = 20.0
 offset_bottom = 20.0
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="block" type="StaticBody2D" parent="."]
 visible = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="block"]
 shape = SubResource("RectangleShape2D_xh8te")

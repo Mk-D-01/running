@@ -22,6 +22,7 @@ GlobalBeings="*res://Global_beings.gd"
 [global_group]
 
 player=""
+block=""
 
 [input]
 
