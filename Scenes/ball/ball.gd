@@ -12,6 +12,12 @@ extends RigidBody2D
 
 @onready var controls = $Controls
 
+# Mobile Controls
+var j := false
+var l := false
+var r := false
+
+
 var hearts = 5
 var path := []
 var score = 0
@@ -27,16 +33,16 @@ func _ready():
 func _physics_process(delta):
 	# Move left/right
 	var direction = 0.0
-	if Input.is_action_pressed("ui_left") or Input.is_action_pressed("left"):
+	if Input.is_action_pressed("ui_left") or Input.is_action_pressed("left") or l:
 		direction -= 1
-	if Input.is_action_pressed("ui_right") or Input.is_action_pressed("right"):
+	if Input.is_action_pressed("ui_right") or Input.is_action_pressed("right") or r:
 		direction += 1
 
 	if direction != 0:
 		apply_force(Vector2(direction * move_force, 0))
 
 	# Jump
-	if Input.is_action_pressed("jump"):
+	if Input.is_action_pressed("jump") or j:
 		if jump :
 			apply_impulse(Vector2(0, jump_impulse))
 		else : 
@@ -72,3 +78,28 @@ func _on_jump_timer_timeout():
 func _hit(x):
 	hearts -= x
 	label.text = 'Score : ' + str(score) + ' Heart : ' + str(hearts)
+
+
+# Mobile Jump
+func _on_j_pressed():
+	j = true
+
+func _on_j_released():
+	j = false
+	
+
+
+func _on_l_pressed():
+	l = true
+
+
+func _on_l_released():
+	l = false
+	print("l")
+
+func _on_r_pressed():
+	r = true
+
+
+func _on_r_released():
+	r = false

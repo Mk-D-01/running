@@ -58,3 +58,9 @@ texture_normal = ExtResource("4_n814c")
 
 [connection signal="timeout" from="jump_timer" to="." method="_on_jump_timer_timeout"]
 [connection signal="timeout" from="camera_shift" to="." method="_on_camera_shift_timeout"]
+[connection signal="pressed" from="Controls/j" to="." method="_on_j_pressed"]
+[connection signal="released" from="Controls/j" to="." method="_on_j_released"]
+[connection signal="pressed" from="Controls/L" to="." method="_on_l_pressed"]
+[connection signal="released" from="Controls/L" to="." method="_on_l_released"]
+[connection signal="pressed" from="Controls/R" to="." method="_on_r_pressed"]
+[connection signal="released" from="Controls/R" to="." method="_on_r_released"]

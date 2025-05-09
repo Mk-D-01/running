@@ -917,3 +917,7 @@ position = Vector2(821, 382)
 shape = SubResource("WorldBoundaryShape2D_qm7fm")
 
 [node name="Death" type="Node2D" parent="."]
+
+[node name="score" type="Timer" parent="."]
+
+[connection signal="timeout" from="score" to="." method="_on_score_timeout"]
