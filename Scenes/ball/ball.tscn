@@ -30,6 +30,7 @@ texture = ExtResource("1_rvw15")
 [node name="jump_timer" type="Timer" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
 
 [node name="camera_shift" type="Timer" parent="."]
 

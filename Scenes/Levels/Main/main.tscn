@@ -475,9 +475,249 @@ rotation = 0.0882569
 scale = Vector2(55.2321, 1.26434)
 
 [node name="16" parent="TIles/white" instance=ExtResource("1_0wv5x")]
-position = Vector2(12283, 2814)
+position = Vector2(10337, 994)
 rotation = -0.743041
 scale = Vector2(55.2321, 1.26434)
+
+[node name="119" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(10337, 994)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="120" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(9323, 838.999)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="121" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(11617, 1239)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="143" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(13589, 3433)
+rotation = -0.743041
+scale = Vector2(55.2321, 1.26434)
+
+[node name="144" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(13589, 3433)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="145" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(12575, 3278)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="146" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(14869, 3678)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="147" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(25974, 1540)
+rotation = 0.991413
+scale = Vector2(55.2321, 1.26434)
+
+[node name="148" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(25974, 1540)
+rotation = 2.56343
+scale = Vector2(55.2321, 1.26434)
+
+[node name="149" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(24960, 1385)
+rotation = 2.56343
+scale = Vector2(55.2321, 1.26434)
+
+[node name="150" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(27254, 1785)
+rotation = 2.56343
+scale = Vector2(55.2321, 1.26434)
+
+[node name="151" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(23012, 1293)
+rotation = -0.574928
+scale = Vector2(55.2321, 1.26434)
+
+[node name="152" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(23012, 1293)
+rotation = 0.997089
+scale = Vector2(55.2321, 1.26434)
+
+[node name="153" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(21998, 1138)
+rotation = 0.997089
+scale = Vector2(55.2321, 1.26434)
+
+[node name="154" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(24292, 1538)
+rotation = 0.997089
+scale = Vector2(55.2321, 1.26434)
+
+[node name="155" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(32311, 4091)
+rotation = -1.6005
+scale = Vector2(55.2321, 1.26434)
+
+[node name="156" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(32311, 4091)
+rotation = -0.0284841
+scale = Vector2(55.2321, 1.26434)
+
+[node name="157" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(31297, 3936)
+rotation = -0.0284841
+scale = Vector2(55.2321, 1.26434)
+
+[node name="158" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(33591, 4336)
+rotation = -0.0284841
+scale = Vector2(55.2321, 1.26434)
+
+[node name="159" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(33586, 2445)
+rotation = -0.865621
+scale = Vector2(59.2863, -4.76042)
+
+[node name="160" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(33586, 2445)
+rotation = 0.706396
+scale = Vector2(59.2863, -4.76042)
+
+[node name="161" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(32572, 2290)
+rotation = 0.706396
+scale = Vector2(59.2863, -4.76042)
+
+[node name="162" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(34866, 2690)
+rotation = 0.706396
+scale = Vector2(59.2863, -4.76042)
+
+[node name="163" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(30747, 2568)
+rotation = -0.865621
+scale = Vector2(59.2863, -4.76042)
+
+[node name="164" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(30747, 2568)
+rotation = 0.706396
+scale = Vector2(59.2863, -4.76042)
+
+[node name="165" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(29733, 2413)
+rotation = 0.706396
+scale = Vector2(59.2863, -4.76042)
+
+[node name="166" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(32027, 2813)
+rotation = 0.706396
+scale = Vector2(59.2863, -4.76042)
+
+[node name="122" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(8746, 4530)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="123" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(7959, 1869)
+rotation = 0.828976
+scale = Vector2(55.2321, 1.26434)
+
+[node name="124" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(14160, 986)
+rotation = 1.62936
+scale = Vector2(55.2321, 1.26434)
+
+[node name="125" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(14578, 1218)
+rotation = 4.19787
+scale = Vector2(55.2321, 1.26434)
+
+[node name="126" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(13649, 1218)
+rotation = 4.19787
+scale = Vector2(55.2321, 1.26434)
+
+[node name="127" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(11977, 4493)
+rotation = 4.76216
+scale = Vector2(55.2321, 1.26434)
+
+[node name="128" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(12604, 4981)
+rotation = 4.41802
+scale = Vector2(55.2321, 1.26434)
+
+[node name="129" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(12604, 4981)
+rotation = 5.81964
+scale = Vector2(55.2321, 1.26434)
+
+[node name="130" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(2037, 6096)
+rotation = 6.56445
+scale = Vector2(71.2585, 4.33385)
+
+[node name="131" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(1131, 5492)
+rotation = 8.73439
+scale = Vector2(71.2585, 4.33385)
+
+[node name="132" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(2757, 6444)
+rotation = 7.22085
+scale = Vector2(71.2585, 4.33385)
+
+[node name="133" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(17412, 1915)
+rotation = 7.22085
+scale = Vector2(71.2585, 4.33385)
+
+[node name="134" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(16878, 1079)
+rotation = 8.63849
+scale = Vector2(71.2585, 4.33385)
+
+[node name="135" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(16878, 1079)
+rotation = 9.01913
+scale = Vector2(71.2585, 4.33385)
+
+[node name="136" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(17435, 3100)
+rotation = 9.01913
+scale = Vector2(71.2585, 4.33385)
+
+[node name="137" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(17435, 3100)
+rotation = 8.07527
+scale = Vector2(71.2585, 4.33385)
+
+[node name="138" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(20106, 2752)
+rotation = 7.84097
+scale = Vector2(71.2585, 4.33385)
+
+[node name="139" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(18550, 4912)
+rotation = 7.84097
+scale = Vector2(71.2585, 4.33385)
+
+[node name="140" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(19433, 4401)
+rotation = 7.84097
+scale = Vector2(71.2585, 4.33385)
+
+[node name="141" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(7707, 7939)
+rotation = 7.84097
+scale = Vector2(71.2585, 4.33385)
+
+[node name="142" parent="TIles/white" instance=ExtResource("1_0wv5x")]
+position = Vector2(7789, 7281)
+rotation = 8.28145
+scale = Vector2(71.2585, 4.33385)
 
 [node name="21" parent="TIles/white" instance=ExtResource("1_0wv5x")]
 position = Vector2(10599, 4203)
@@ -584,8 +824,180 @@ scale = Vector2(17.149, 17.149)
 [node name="Blue" type="Node2D" parent="TIles"]
 
 [node name="1" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
-position = Vector2(1726, 1560)
+position = Vector2(19657, 7610)
 scale = Vector2(-10.172, -68.2874)
+
+[node name="38" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(20969, 6881)
+scale = Vector2(-10.172, -68.2874)
+
+[node name="39" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(20313, 6881)
+rotation = 1.55123
+scale = Vector2(-10.172, -68.2874)
+
+[node name="40" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(17835, 12858)
+rotation = 0.855999
+scale = Vector2(-10.172, -68.2874)
+
+[node name="41" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(19147, 12129)
+rotation = 0.855999
+scale = Vector2(-10.172, -68.2874)
+
+[node name="42" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(18491, 12129)
+rotation = 2.40723
+scale = Vector2(-10.172, -68.2874)
+
+[node name="43" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(10109, 14899)
+rotation = 1.73322
+scale = Vector2(-10.172, -68.2874)
+
+[node name="44" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(11421, 14170)
+rotation = 1.73322
+scale = Vector2(-10.172, -68.2874)
+
+[node name="45" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(10765, 14170)
+rotation = 3.28445
+scale = Vector2(-10.172, -68.2874)
+
+[node name="46" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(31393, 17450)
+rotation = 1.27174
+scale = Vector2(-10.172, -68.2874)
+
+[node name="47" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(32705, 16721)
+rotation = 1.27174
+scale = Vector2(-10.172, -68.2874)
+
+[node name="48" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(32049, 16721)
+rotation = 2.82297
+scale = Vector2(-10.172, -68.2874)
+
+[node name="49" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(37807, 18325)
+rotation = -0.549777
+scale = Vector2(-10.172, -68.2874)
+
+[node name="50" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(39119, 17596)
+rotation = -0.549777
+scale = Vector2(-10.172, -68.2874)
+
+[node name="51" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(38463, 17596)
+rotation = 1.00146
+scale = Vector2(-10.172, -68.2874)
+
+[node name="52" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(17835, 19783)
+rotation = 1.00559
+scale = Vector2(-79.2578, -1833.93)
+
+[node name="53" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(8724, 13733)
+rotation = 1.00559
+scale = Vector2(-79.2578, -1833.93)
+
+[node name="54" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(2237, 8485)
+rotation = 1.00559
+scale = Vector2(-79.2578, -1833.93)
+
+[node name="55" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(4278, 11765)
+rotation = -0.315032
+scale = Vector2(-79.2578, -1833.93)
+
+[node name="56" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(27457, 22553)
+rotation = -0.309127
+scale = Vector2(-37.718, -3301.26)
+
+[node name="57" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(14337, 19564)
+rotation = -0.23006
+scale = Vector2(-37.718, -3301.26)
+
+[node name="58" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(14337, 19564)
+rotation = -0.0333891
+scale = Vector2(-37.718, -3301.26)
+
+[node name="59" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(4643, 11765)
+rotation = -2.97754
+scale = Vector2(-37.718, -3301.26)
+
+[node name="30" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(29862, 2289)
+rotation = 0.377227
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="31" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(25999, 2581)
+rotation = 0.102125
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="32" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(25124, 4039)
+rotation = 0.935884
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="33" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(21261, 7319)
+rotation = 0.935884
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="34" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(9234, 11911)
+rotation = 0.829949
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="35" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(18856, 15191)
+rotation = 1.55976
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="36" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(18856, 15191)
+rotation = 1.13538
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="37" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(16087, 15045)
+rotation = -0.92566
+scale = Vector2(-4.25018, -93.5604)
+
+[node name="24" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(2678, 1339)
+scale = Vector2(-10.172, -68.2874)
+
+[node name="25" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(4065, 1335)
+scale = Vector2(-10.172, -68.2874)
+
+[node name="26" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(4275, 3341)
+rotation = 1.21888
+scale = Vector2(-10.172, -68.2874)
+
+[node name="27" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(6333, 2476)
+rotation = 0.372147
+scale = Vector2(-2.06974, -101.082)
+
+[node name="28" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(5376, 1821)
+rotation = 0.372147
+scale = Vector2(-0.146989, -95.4648)
 
 [node name="16" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
 position = Vector2(37756, 5248)
@@ -629,6 +1041,10 @@ scale = Vector2(-6.10621, 6.47537)
 
 [node name="12" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
 position = Vector2(5875, 1317)
+scale = Vector2(-6.10621, 6.47537)
+
+[node name="29" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
+position = Vector2(7120, 3546)
 scale = Vector2(-6.10621, 6.47537)
 
 [node name="15" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
@@ -689,6 +1105,700 @@ scale = Vector2(7.92349, 62.7117)
 [node name="1" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
 position = Vector2(512, 1508)
 scale = Vector2(10.6251, 12.2105)
+
+[node name="44" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(-146.001, 3483)
+scale = Vector2(14.739, 241.315)
+
+[node name="45" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(10840, 5170)
+rotation = 0.123514
+scale = Vector2(14.739, 241.315)
+
+[node name="46" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(10840, 5170)
+rotation = -1.09127
+scale = Vector2(14.739, 241.315)
+
+[node name="47" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(6438, 6116)
+rotation = -1.09127
+scale = Vector2(4.29329, 70.2922)
+
+[node name="48" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(4216, 7803)
+rotation = -1.09127
+scale = Vector2(4.29329, 70.2922)
+
+[node name="49" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(16971, 2372)
+rotation = -1.09127
+scale = Vector2(4.29329, 70.2922)
+
+[node name="50" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(15654, 3442)
+rotation = -1.09127
+scale = Vector2(4.29329, 70.2922)
+
+[node name="51" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(-5330, 4841)
+rotation = -1.09127
+scale = Vector2(4.29329, 70.2922)
+
+[node name="52" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(-5330, 4841)
+rotation = -0.109189
+scale = Vector2(4.29329, 70.2922)
+
+[node name="53" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(-5494, 3689)
+rotation = 1.0676
+scale = Vector2(4.29329, 70.2922)
+
+[node name="54" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(-4013, 5253)
+rotation = 1.0676
+scale = Vector2(4.29329, 70.2922)
+
+[node name="55" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(19151, 26895)
+rotation = -1.09127
+scale = Vector2(4.29329, 70.2922)
+
+[node name="56" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(19151, 26895)
+rotation = -0.109189
+scale = Vector2(4.29329, 70.2922)
+
+[node name="57" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(18987, 25743)
+rotation = 1.0676
+scale = Vector2(4.29329, 70.2922)
+
+[node name="58" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(20468, 27307)
+rotation = 1.0676
+scale = Vector2(4.29329, 70.2922)
+
+[node name="59" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21620, 27512)
+rotation = -0.175631
+scale = Vector2(4.29329, 70.2922)
+
+[node name="60" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21620, 27512)
+rotation = 0.806453
+scale = Vector2(4.29329, 70.2922)
+
+[node name="61" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21456, 26360)
+rotation = 1.98324
+scale = Vector2(4.29329, 70.2922)
+
+[node name="62" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(22937, 27924)
+rotation = 1.98324
+scale = Vector2(4.29329, 70.2922)
+
+[node name="63" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(25035, 27759)
+rotation = 0.975191
+scale = Vector2(4.29329, 70.2922)
+
+[node name="64" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(25035, 27759)
+rotation = 1.95727
+scale = Vector2(4.29329, 70.2922)
+
+[node name="65" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(24871, 26607)
+rotation = 3.13407
+scale = Vector2(4.29329, 70.2922)
+
+[node name="66" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(26352, 28171)
+rotation = 3.13407
+scale = Vector2(4.29329, 70.2922)
+
+[node name="67" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(32112, 27594)
+rotation = 2.59055
+scale = Vector2(4.29329, 70.2922)
+
+[node name="68" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(32112, 27594)
+rotation = 3.57263
+scale = Vector2(4.29329, 70.2922)
+
+[node name="69" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31948, 26442)
+rotation = 4.74942
+scale = Vector2(4.29329, 70.2922)
+
+[node name="70" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(33429, 28006)
+rotation = 4.74942
+scale = Vector2(4.29329, 70.2922)
+
+[node name="71" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(33305, 26401)
+rotation = 2.59055
+scale = Vector2(4.29329, 70.2922)
+
+[node name="72" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(33305, 26401)
+rotation = 3.57263
+scale = Vector2(4.29329, 70.2922)
+
+[node name="73" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(33141, 25249)
+rotation = 4.74942
+scale = Vector2(4.29329, 70.2922)
+
+[node name="74" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34622, 26813)
+rotation = 4.74942
+scale = Vector2(4.29329, 70.2922)
+
+[node name="75" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(35157, 28335)
+rotation = 3.81542
+scale = Vector2(4.29329, 70.2922)
+
+[node name="76" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(35157, 28335)
+rotation = 4.7975
+scale = Vector2(4.29329, 70.2922)
+
+[node name="77" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34993, 27183)
+rotation = 5.97429
+scale = Vector2(4.29329, 70.2922)
+
+[node name="78" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36474, 28747)
+rotation = 5.97429
+scale = Vector2(4.29329, 70.2922)
+
+[node name="79" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21672, 34239)
+rotation = 3.81542
+scale = Vector2(4.29329, 70.2922)
+
+[node name="80" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21672, 34239)
+rotation = 4.7975
+scale = Vector2(4.29329, 70.2922)
+
+[node name="81" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21508, 33087)
+rotation = 5.97429
+scale = Vector2(4.29329, 70.2922)
+
+[node name="82" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(22989, 34651)
+rotation = 5.97429
+scale = Vector2(4.29329, 70.2922)
+
+[node name="83" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(20068, 33219)
+rotation = 4.49221
+scale = Vector2(4.29329, 70.2922)
+
+[node name="84" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(20068, 33219)
+rotation = 5.4743
+scale = Vector2(4.29329, 70.2922)
+
+[node name="85" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(19904, 32067)
+rotation = 6.65109
+scale = Vector2(4.29329, 70.2922)
+
+[node name="86" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(21385, 33631)
+rotation = 6.65109
+scale = Vector2(4.29329, 70.2922)
+
+[node name="87" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(55274, 29356)
+rotation = 4.49221
+scale = Vector2(4.29329, 70.2922)
+
+[node name="88" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(55274, 29356)
+rotation = 5.4743
+scale = Vector2(4.29329, 70.2922)
+
+[node name="89" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(55110, 28204)
+rotation = 6.65109
+scale = Vector2(4.29329, 70.2922)
+
+[node name="90" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56591, 29768)
+rotation = 6.65109
+scale = Vector2(4.29329, 70.2922)
+
+[node name="91" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(55274, 29356)
+rotation = 4.49221
+scale = Vector2(4.29329, 70.2922)
+
+[node name="92" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(55274, 29356)
+rotation = 5.4743
+scale = Vector2(4.29329, 70.2922)
+
+[node name="93" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(55110, 28204)
+rotation = 6.65109
+scale = Vector2(4.29329, 70.2922)
+
+[node name="94" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56591, 29768)
+rotation = 6.65109
+scale = Vector2(4.29329, 70.2922)
+
+[node name="95" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56586, 29356)
+rotation = 5.48501
+scale = Vector2(4.29329, 70.2922)
+
+[node name="96" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56586, 29356)
+rotation = 6.46709
+scale = Vector2(4.29329, 70.2922)
+
+[node name="97" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56422, 28204)
+rotation = 7.64388
+scale = Vector2(4.29329, 70.2922)
+
+[node name="98" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57903, 29768)
+rotation = 7.64388
+scale = Vector2(4.29329, 70.2922)
+
+[node name="99" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56586, 29356)
+rotation = 5.48501
+scale = Vector2(4.29329, 70.2922)
+
+[node name="100" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56586, 29356)
+rotation = 6.46709
+scale = Vector2(4.29329, 70.2922)
+
+[node name="101" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(56422, 28204)
+rotation = 7.64388
+scale = Vector2(4.29329, 70.2922)
+
+[node name="102" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57903, 29768)
+rotation = 7.64388
+scale = Vector2(4.29329, 70.2922)
+
+[node name="103" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57752, 31032)
+rotation = 7.44482
+scale = Vector2(4.29329, 70.2922)
+
+[node name="104" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57752, 31032)
+rotation = 8.4269
+scale = Vector2(4.29329, 70.2922)
+
+[node name="105" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57588, 29880)
+rotation = 9.60369
+scale = Vector2(4.29329, 70.2922)
+
+[node name="106" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(59069, 31444)
+rotation = 9.60369
+scale = Vector2(4.29329, 70.2922)
+
+[node name="107" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57752, 31032)
+rotation = 7.44482
+scale = Vector2(4.29329, 70.2922)
+
+[node name="108" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57752, 31032)
+rotation = 8.4269
+scale = Vector2(4.29329, 70.2922)
+
+[node name="109" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(57588, 29880)
+rotation = 9.60369
+scale = Vector2(4.29329, 70.2922)
+
+[node name="110" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(59069, 31444)
+rotation = 9.60369
+scale = Vector2(4.29329, 70.2922)
+
+[node name="111" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(29106, 32126)
+rotation = 5.79719
+scale = Vector2(4.29329, 70.2922)
+
+[node name="112" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(29106, 32126)
+rotation = 6.77927
+scale = Vector2(4.29329, 70.2922)
+
+[node name="113" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(28942, 30974)
+rotation = 7.95606
+scale = Vector2(4.29329, 70.2922)
+
+[node name="114" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30423, 32538)
+rotation = 7.95606
+scale = Vector2(4.29329, 70.2922)
+
+[node name="115" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(29106, 32126)
+rotation = 5.79719
+scale = Vector2(4.29329, 70.2922)
+
+[node name="116" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(29106, 32126)
+rotation = 6.77927
+scale = Vector2(4.29329, 70.2922)
+
+[node name="117" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(28942, 30974)
+rotation = 7.95606
+scale = Vector2(4.29329, 70.2922)
+
+[node name="118" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30423, 32538)
+rotation = 7.95606
+scale = Vector2(4.29329, 70.2922)
+
+[node name="119" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30418, 32126)
+rotation = 6.78998
+scale = Vector2(4.29329, 70.2922)
+
+[node name="120" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30418, 32126)
+rotation = 7.77207
+scale = Vector2(4.29329, 70.2922)
+
+[node name="121" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30254, 30974)
+rotation = 8.94886
+scale = Vector2(4.29329, 70.2922)
+
+[node name="122" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31735, 32538)
+rotation = 8.94886
+scale = Vector2(4.29329, 70.2922)
+
+[node name="123" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30418, 32126)
+rotation = 6.78998
+scale = Vector2(4.29329, 70.2922)
+
+[node name="124" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30418, 32126)
+rotation = 7.77207
+scale = Vector2(4.29329, 70.2922)
+
+[node name="125" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(30254, 30974)
+rotation = 8.94886
+scale = Vector2(4.29329, 70.2922)
+
+[node name="126" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31735, 32538)
+rotation = 8.94886
+scale = Vector2(4.29329, 70.2922)
+
+[node name="127" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31584, 33802)
+rotation = 8.7498
+scale = Vector2(4.29329, 70.2922)
+
+[node name="128" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31584, 33802)
+rotation = 9.73188
+scale = Vector2(4.29329, 70.2922)
+
+[node name="129" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31420, 32650)
+rotation = 10.9087
+scale = Vector2(4.29329, 70.2922)
+
+[node name="130" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(32901, 34214)
+rotation = 10.9087
+scale = Vector2(4.29329, 70.2922)
+
+[node name="131" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31584, 33802)
+rotation = 8.7498
+scale = Vector2(4.29329, 70.2922)
+
+[node name="132" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31584, 33802)
+rotation = 9.73188
+scale = Vector2(4.29329, 70.2922)
+
+[node name="133" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(31420, 32650)
+rotation = 10.9087
+scale = Vector2(4.29329, 70.2922)
+
+[node name="134" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(32901, 34214)
+rotation = 10.9087
+scale = Vector2(4.29329, 70.2922)
+
+[node name="135" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34791, 34604)
+rotation = 5.02666
+scale = Vector2(4.29329, 70.2922)
+
+[node name="136" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34791, 34604)
+rotation = 6.00874
+scale = Vector2(4.29329, 70.2922)
+
+[node name="137" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34627, 33452)
+rotation = 7.18553
+scale = Vector2(4.29329, 70.2922)
+
+[node name="138" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36108, 35016)
+rotation = 7.18553
+scale = Vector2(4.29329, 70.2922)
+
+[node name="139" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34791, 34604)
+rotation = 5.02666
+scale = Vector2(4.29329, 70.2922)
+
+[node name="140" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34791, 34604)
+rotation = 6.00874
+scale = Vector2(4.29329, 70.2922)
+
+[node name="141" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(34627, 33452)
+rotation = 7.18553
+scale = Vector2(4.29329, 70.2922)
+
+[node name="142" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36108, 35016)
+rotation = 7.18553
+scale = Vector2(4.29329, 70.2922)
+
+[node name="143" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36103, 34604)
+rotation = 6.01945
+scale = Vector2(4.29329, 70.2922)
+
+[node name="144" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36103, 34604)
+rotation = 7.00153
+scale = Vector2(4.29329, 70.2922)
+
+[node name="145" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(35939, 33452)
+rotation = 8.17832
+scale = Vector2(4.29329, 70.2922)
+
+[node name="146" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37420, 35016)
+rotation = 8.17832
+scale = Vector2(4.29329, 70.2922)
+
+[node name="147" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36103, 34604)
+rotation = 6.01945
+scale = Vector2(4.29329, 70.2922)
+
+[node name="148" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(36103, 34604)
+rotation = 7.00153
+scale = Vector2(4.29329, 70.2922)
+
+[node name="149" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(35939, 33452)
+rotation = 8.17832
+scale = Vector2(4.29329, 70.2922)
+
+[node name="150" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37420, 35016)
+rotation = 8.17832
+scale = Vector2(4.29329, 70.2922)
+
+[node name="151" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37269, 36280)
+rotation = 7.97926
+scale = Vector2(4.29329, 70.2922)
+
+[node name="152" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37269, 36280)
+rotation = 8.96135
+scale = Vector2(4.29329, 70.2922)
+
+[node name="153" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37105, 35128)
+rotation = 10.1381
+scale = Vector2(4.29329, 70.2922)
+
+[node name="154" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(38586, 36692)
+rotation = 10.1381
+scale = Vector2(4.29329, 70.2922)
+
+[node name="155" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37269, 36280)
+rotation = 7.97926
+scale = Vector2(4.29329, 70.2922)
+
+[node name="156" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37269, 36280)
+rotation = 8.96135
+scale = Vector2(4.29329, 70.2922)
+
+[node name="157" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(37105, 35128)
+rotation = 10.1381
+scale = Vector2(4.29329, 70.2922)
+
+[node name="158" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(38586, 36692)
+rotation = 10.1381
+scale = Vector2(4.29329, 70.2922)
+
+[node name="159" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(40768, 36134)
+rotation = 4.56736
+scale = Vector2(4.29329, 70.2922)
+
+[node name="160" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(40768, 36134)
+rotation = 5.54944
+scale = Vector2(4.29329, 70.2922)
+
+[node name="161" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(40604, 34982)
+rotation = 6.72623
+scale = Vector2(4.29329, 70.2922)
+
+[node name="162" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(42085, 36546)
+rotation = 6.72623
+scale = Vector2(4.29329, 70.2922)
+
+[node name="163" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(40768, 36134)
+rotation = 4.56736
+scale = Vector2(4.29329, 70.2922)
+
+[node name="164" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(40768, 36134)
+rotation = 5.54944
+scale = Vector2(4.29329, 70.2922)
+
+[node name="165" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(40604, 34982)
+rotation = 6.72623
+scale = Vector2(4.29329, 70.2922)
+
+[node name="166" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(42085, 36546)
+rotation = 6.72623
+scale = Vector2(4.29329, 70.2922)
+
+[node name="167" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(42080, 36134)
+rotation = 5.56015
+scale = Vector2(4.29329, 70.2922)
+
+[node name="168" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(42080, 36134)
+rotation = 6.54223
+scale = Vector2(4.29329, 70.2922)
+
+[node name="169" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(41916, 34982)
+rotation = 7.71902
+scale = Vector2(4.29329, 70.2922)
+
+[node name="170" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43397, 36546)
+rotation = 7.71902
+scale = Vector2(4.29329, 70.2922)
+
+[node name="171" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(42080, 36134)
+rotation = 5.56015
+scale = Vector2(4.29329, 70.2922)
+
+[node name="172" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(42080, 36134)
+rotation = 6.54223
+scale = Vector2(4.29329, 70.2922)
+
+[node name="173" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(41916, 34982)
+rotation = 7.71902
+scale = Vector2(4.29329, 70.2922)
+
+[node name="174" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43397, 36546)
+rotation = 7.71902
+scale = Vector2(4.29329, 70.2922)
+
+[node name="175" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43246, 37810)
+rotation = 7.51996
+scale = Vector2(4.29329, 70.2922)
+
+[node name="176" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43246, 37810)
+rotation = 8.50205
+scale = Vector2(4.29329, 70.2922)
+
+[node name="177" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43082, 36658)
+rotation = 9.67884
+scale = Vector2(4.29329, 70.2922)
+
+[node name="178" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(44563, 38222)
+rotation = 9.67884
+scale = Vector2(4.29329, 70.2922)
+
+[node name="179" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43246, 37810)
+rotation = 7.51996
+scale = Vector2(4.29329, 70.2922)
+
+[node name="180" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43246, 37810)
+rotation = 8.50205
+scale = Vector2(4.29329, 70.2922)
+
+[node name="181" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(43082, 36658)
+rotation = 9.67884
+scale = Vector2(4.29329, 70.2922)
+
+[node name="182" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
+position = Vector2(44563, 38222)
+rotation = 9.67884
+scale = Vector2(4.29329, 70.2922)
 
 [node name="2" parent="TIles/Red" instance=ExtResource("4_qm7fm")]
 position = Vector2(2007, 2701)
