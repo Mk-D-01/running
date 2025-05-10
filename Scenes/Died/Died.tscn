@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwnxney7phovr"]
+
+[ext_resource type="FontFile" uid="uid://b74med74g5vm7" path="res://Asets/Font/Round9x13.ttf" id="1_afkln"]
+[ext_resource type="FontFile" uid="uid://c4wskl5mnaiki" path="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/alkhemikal/Alkhemikal.ttf" id="2_c1ddm"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -200.0
+offset_top = -51.0
+offset_right = 207.0
+offset_bottom = 43.0
+theme_override_colors/font_color = Color(0.72549, 0.466667, 0, 1)
+theme_override_fonts/font = ExtResource("1_afkln")
+theme_override_font_sizes/font_size = 100
+text = "THE END"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -78.0
+offset_top = 73.0
+offset_right = 329.0
+offset_bottom = 173.0
+scale = Vector2(0.322501, 0.322501)
+theme_override_colors/font_color = Color(0.72549, 0.466667, 0.752941, 1)
+theme_override_fonts/font = ExtResource("2_c1ddm")
+theme_override_font_sizes/font_size = 100
+text = "Score :"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(13.4203, 26.8704)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -1
+offset_left = -792.0
+offset_top = -641.0
+offset_right = -752.0
+offset_bottom = -601.0
+scale = Vector2(38.1202, 36.829)
+color = Color(0, 0, 0, 1)

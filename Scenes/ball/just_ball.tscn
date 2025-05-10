@@ -11,11 +11,11 @@ bounce = 0.8
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hx331"]
 
-[node name="Just_ball" type="RigidBody2D"]
+[node name="Just_ball" type="RigidBody2D" groups=["just_ball"]]
 physics_material_override = SubResource("PhysicsMaterial_680aq")
 script = ExtResource("1_bq4r7")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["just_ball"]]
 scale = Vector2(1.52547, 1.52547)
 shape = SubResource("CircleShape2D_0x5sg")
 

@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bjqstm87ra8bn"
-path="res://.godot/imported/RomanTeal.ttf-c9c0545472a2dcc984f8503d9a7b8b38.fontdata"
+uid="uid://bbmh4j8fj38yw"
+path="res://.godot/imported/PIXEAB__.TTF-749d7ed56cfe48c5633f637a7a68c2d8.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/RomanTeal.ttf"
-dest_files=["res://.godot/imported/RomanTeal.ttf-c9c0545472a2dcc984f8503d9a7b8b38.fontdata"]
+source_file="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/pixel_arial_11/PIXEAB__.TTF"
+dest_files=["res://.godot/imported/PIXEAB__.TTF-749d7ed56cfe48c5633f637a7a68c2d8.fontdata"]
 
 [params]
 

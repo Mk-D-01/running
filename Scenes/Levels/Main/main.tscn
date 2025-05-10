@@ -912,7 +912,7 @@ rotation = 1.00559
 scale = Vector2(-79.2578, -1833.93)
 
 [node name="55" parent="TIles/Blue" instance=ExtResource("2_c76ff")]
-position = Vector2(4278, 11765)
+position = Vector2(6782, 11301)
 rotation = -0.315032
 scale = Vector2(-79.2578, -1833.93)
 
@@ -2021,13 +2021,44 @@ position = Vector2(821, 382)
 
 [node name="spawn" type="Timer" parent="aniti_ball"]
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Death" type="Node2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="D_1" type="Area2D" parent="Death"]
+position = Vector2(-802, 48399)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Death/D_1"]
 shape = SubResource("WorldBoundaryShape2D_qm7fm")
 
-[node name="Death" type="Node2D" parent="."]
+[node name="D_4" type="Area2D" parent="Death"]
+position = Vector2(-802, -3441)
+rotation = 3.14159
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Death/D_4"]
+shape = SubResource("WorldBoundaryShape2D_qm7fm")
+
+[node name="D_2" type="Area2D" parent="Death"]
+position = Vector2(-3280, 45629)
+rotation = 1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Death/D_2"]
+shape = SubResource("WorldBoundaryShape2D_qm7fm")
+
+[node name="D_3" type="Area2D" parent="Death"]
+position = Vector2(49968, 41661)
+rotation = -1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Death/D_3"]
+shape = SubResource("WorldBoundaryShape2D_qm7fm")
 
 [node name="score" type="Timer" parent="."]
 
+[node name="heart" type="Timer" parent="."]
+
+[connection signal="body_entered" from="Death/D_1" to="." method="_on_d_1_body_entered"]
+[connection signal="body_entered" from="Death/D_4" to="." method="_on_d_4_body_entered"]
+[connection signal="body_entered" from="Death/D_2" to="." method="_on_d_1_body_entered"]
+[connection signal="body_entered" from="Death/D_2" to="." method="_on_d_2_body_entered"]
+[connection signal="body_entered" from="Death/D_3" to="." method="_on_d_1_body_entered"]
+[connection signal="body_entered" from="Death/D_3" to="." method="_on_d_3_body_entered"]
 [connection signal="timeout" from="score" to="." method="_on_score_timeout"]
+[connection signal="timeout" from="heart" to="." method="_on_heart_timeout"]

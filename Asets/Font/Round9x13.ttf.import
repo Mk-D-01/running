@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bsm3svc3iknay"
-path="res://.godot/imported/Normaleste.ttf-f4dfe035957c2eab72ce3999dda98d77.fontdata"
+uid="uid://b74med74g5vm7"
+path="res://.godot/imported/Round9x13.ttf-a09d6440cb70d710f87b759a7fae8005.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/Normaleste.ttf"
-dest_files=["res://.godot/imported/Normaleste.ttf-f4dfe035957c2eab72ce3999dda98d77.fontdata"]
+source_file="res://Asets/Font/Round9x13.ttf"
+dest_files=["res://.godot/imported/Round9x13.ttf-a09d6440cb70d710f87b759a7fae8005.fontdata"]
 
 [params]
 

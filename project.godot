@@ -23,7 +23,7 @@ GlobalBeings="*res://Global_beings.gd"
 
 player=""
 block=""
-red_block=""
+just_ball=""
 
 [input]
 

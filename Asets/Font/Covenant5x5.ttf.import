@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://k000bqmjdtts"
-path="res://.godot/imported/Diamonaire.ttf-6ba409b890ca69c3bac876bffd3b0212.fontdata"
+uid="uid://dqd57k60y23w"
+path="res://.godot/imported/Covenant5x5.ttf-2b950f1b08fc8554184ae9f10778eac0.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/Diamonaire.ttf"
-dest_files=["res://.godot/imported/Diamonaire.ttf-6ba409b890ca69c3bac876bffd3b0212.fontdata"]
+source_file="res://Asets/Font/Covenant5x5.ttf"
+dest_files=["res://.godot/imported/Covenant5x5.ttf-2b950f1b08fc8554184ae9f10778eac0.fontdata"]
 
 [params]
 

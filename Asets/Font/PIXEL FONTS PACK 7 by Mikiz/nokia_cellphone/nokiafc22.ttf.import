@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bj6pmk0o8ubua"
-path="res://.godot/imported/PinlightBold.ttf-125aec7a205036acadb0aca969ff31fe.fontdata"
+uid="uid://c58d0ydvr6e55"
+path="res://.godot/imported/nokiafc22.ttf-01b946650ebff5ae58af672f722bdd4d.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/PinlightBold.ttf"
-dest_files=["res://.godot/imported/PinlightBold.ttf-125aec7a205036acadb0aca969ff31fe.fontdata"]
+source_file="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/nokia_cellphone/nokiafc22.ttf"
+dest_files=["res://.godot/imported/nokiafc22.ttf-01b946650ebff5ae58af672f722bdd4d.fontdata"]
 
 [params]
 

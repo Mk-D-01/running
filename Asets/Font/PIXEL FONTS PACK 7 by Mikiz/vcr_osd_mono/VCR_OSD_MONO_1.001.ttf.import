@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dvsrh4smidd7v"
-path="res://.godot/imported/Pixeletter.ttf-4c98adeee6c5b013074ced5c26681d02.fontdata"
+uid="uid://yyfv1bs85jp1"
+path="res://.godot/imported/VCR_OSD_MONO_1.001.ttf-564f2c7382dce46f7cbeff6efa2595fd.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/Pixeletter.ttf"
-dest_files=["res://.godot/imported/Pixeletter.ttf-4c98adeee6c5b013074ced5c26681d02.fontdata"]
+source_file="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf"
+dest_files=["res://.godot/imported/VCR_OSD_MONO_1.001.ttf-564f2c7382dce46f7cbeff6efa2595fd.fontdata"]
 
 [params]
 

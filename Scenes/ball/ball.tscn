@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://cj3sesg5tfs58"]
+[gd_scene load_steps=9 format=3 uid="uid://cj3sesg5tfs58"]
 
 [ext_resource type="Script" uid="uid://chnumfct82qeu" path="res://Scenes/ball/ball.gd" id="1_680aq"]
 [ext_resource type="Texture2D" uid="uid://dhgjxyk2dxb2f" path="res://Asets/background_set/M1011.png" id="1_rvw15"]
 [ext_resource type="Texture2D" uid="uid://dfvrjc26bykrj" path="res://Asets/gamepad/switch_minus.96dpi.png" id="3_0x5sg"]
+[ext_resource type="FontFile" uid="uid://cchgklv67hqww" path="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/super_mario_bros_2/Super Mario Bros. 2.ttf" id="3_m23c8"]
 [ext_resource type="Texture2D" uid="uid://b2s3wl5gfbvb" path="res://Asets/gamepad/ps_triangle.96dpi.png" id="3_olr4i"]
 [ext_resource type="Texture2D" uid="uid://dk10pa1ea8h8o" path="res://Asets/gamepad/switch_plus.96dpi.png" id="4_n814c"]
 
@@ -31,16 +32,9 @@ texture = ExtResource("1_rvw15")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 limit_left = 0
+limit_top = 0
 
 [node name="camera_shift" type="Timer" parent="."]
-
-[node name="Label" type="Label" parent="."]
-offset_left = 282.0
-offset_top = -292.0
-offset_right = 325.0
-offset_bottom = -243.0
-text = "Score : 0
-"
 
 [node name="Controls" type="Node2D" parent="."]
 z_index = 10
@@ -56,6 +50,15 @@ texture_normal = ExtResource("3_0x5sg")
 [node name="R" type="TouchScreenButton" parent="Controls"]
 position = Vector2(434, 170)
 texture_normal = ExtResource("4_n814c")
+
+[node name="Label" type="Label" parent="Controls"]
+offset_left = 282.0
+offset_top = -292.0
+offset_right = 426.0
+offset_bottom = -243.0
+theme_override_fonts/font = ExtResource("3_m23c8")
+text = "Score : 0
+"
 
 [connection signal="timeout" from="jump_timer" to="." method="_on_jump_timer_timeout"]
 [connection signal="timeout" from="camera_shift" to="." method="_on_camera_shift_timeout"]

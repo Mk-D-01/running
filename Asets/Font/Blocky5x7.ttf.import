@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://25ugan55l5yi"
-path="res://.godot/imported/VideoGlauBold.ttf-42543d5acc07f2d261b04e239db59b7f.fontdata"
+uid="uid://dvcdrug402jnh"
+path="res://.godot/imported/Blocky5x7.ttf-4b1569f9bdfe92c475dd59a9ca027f02.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/VideoGlauBold.ttf"
-dest_files=["res://.godot/imported/VideoGlauBold.ttf-42543d5acc07f2d261b04e239db59b7f.fontdata"]
+source_file="res://Asets/Font/Blocky5x7.ttf"
+dest_files=["res://.godot/imported/Blocky5x7.ttf-4b1569f9bdfe92c475dd59a9ca027f02.fontdata"]
 
 [params]
 

@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://cp1hx42mwst7l"
-path="res://.godot/imported/Cyberoise.ttf-ca26ec8fc089b1104094dc994edada35.fontdata"
+uid="uid://bsd7lrtln2vmq"
+path="res://.godot/imported/PIXEARG_.TTF-3a0c957b695c335dd7a619e9591697b9.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/Cyberoise.ttf"
-dest_files=["res://.godot/imported/Cyberoise.ttf-ca26ec8fc089b1104094dc994edada35.fontdata"]
+source_file="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/pixel_arial_11/PIXEARG_.TTF"
+dest_files=["res://.godot/imported/PIXEARG_.TTF-3a0c957b695c335dd7a619e9591697b9.fontdata"]
 
 [params]
 

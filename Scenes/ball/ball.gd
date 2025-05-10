@@ -6,7 +6,7 @@ extends RigidBody2D
 
 @onready var cam = $Camera2D
 @onready var cam_t = $camera_shift
-@onready var label = $Label
+@onready var label = $Controls/Label
 @onready var ball = $"."
 @onready var jump_timer = $jump_timer
 
@@ -61,8 +61,8 @@ func _process(delta):
 	if path.size() > max_path_length:
 		path.pop_front()
 	
-	label.global_position  = ball.global_position +  Vector2(282.0,-292.0)
-	label.rotation_degrees = 0
+	label.global_position  = ball.global_position +  Vector2(200.0,-292.0)
+	label.rotation = 0
 	controls.global_position = (ball.global_position)
 	controls.global_rotation = 0
 	cam.global_rotation = 0

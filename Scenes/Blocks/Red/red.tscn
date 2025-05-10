@@ -1,9 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfv4j36e5a3eo"]
+[gd_scene load_steps=4 format=3 uid="uid://cfv4j36e5a3eo"]
+
+[ext_resource type="Script" uid="uid://jnp7372lbnl5" path="res://Scenes/Blocks/Red/red.gd" id="1_jjhy4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8u6qc"]
 size = Vector2(38, 38)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jjhy4"]
+size = Vector2(40, 40)
+
 [node name="Red" type="Node2D" groups=["red_block"]]
+script = ExtResource("1_jjhy4")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -20.0
@@ -12,8 +18,15 @@ offset_right = 20.0
 offset_bottom = 20.0
 color = Color(0.769592, 0, 0.237154, 1)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="StaticBody2D" type="StaticBody2D" parent="." groups=["red_block"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 visible = false
 shape = SubResource("RectangleShape2D_8u6qc")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_jjhy4")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

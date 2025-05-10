@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bcoq5gwbpuhtv"
-path="res://.godot/imported/Pinlight.ttf-f9ce3e035fc490b7e296603b0a082ab7.fontdata"
+uid="uid://cjau6ec7jrq1v"
+path="res://.godot/imported/Volt5x5.ttf-401d569dcb8d42bcb6b7ce531f6cba97.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/Pinlight.ttf"
-dest_files=["res://.godot/imported/Pinlight.ttf-f9ce3e035fc490b7e296603b0a082ab7.fontdata"]
+source_file="res://Asets/Font/Volt5x5.ttf"
+dest_files=["res://.godot/imported/Volt5x5.ttf-401d569dcb8d42bcb6b7ce531f6cba97.fontdata"]
 
 [params]
 

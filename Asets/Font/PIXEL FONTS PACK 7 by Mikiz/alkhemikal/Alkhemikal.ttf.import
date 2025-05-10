@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://b3pf2i7jdp44h"
-path="res://.godot/imported/Decolue.ttf-786810bd0786c0209544b35ad2593398.fontdata"
+uid="uid://c4wskl5mnaiki"
+path="res://.godot/imported/Alkhemikal.ttf-cb26432cb940298929de7b6564f0c802.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/Decolue.ttf"
-dest_files=["res://.godot/imported/Decolue.ttf-786810bd0786c0209544b35ad2593398.fontdata"]
+source_file="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/alkhemikal/Alkhemikal.ttf"
+dest_files=["res://.godot/imported/Alkhemikal.ttf-cb26432cb940298929de7b6564f0c802.fontdata"]
 
 [params]
 

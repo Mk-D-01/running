@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://b8rk1ibjtcttb"
-path="res://.godot/imported/PixeletterBold.ttf-2831f0da16b2a6e0701e3cb92b0d33bb.fontdata"
+uid="uid://cchgklv67hqww"
+path="res://.godot/imported/Super Mario Bros. 2.ttf-f0065e4e9187cedb60d0b277781e2f8f.fontdata"
 
 [deps]
 
-source_file="res://Asets/sik_fonts/PixeletterBold.ttf"
-dest_files=["res://.godot/imported/PixeletterBold.ttf-2831f0da16b2a6e0701e3cb92b0d33bb.fontdata"]
+source_file="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/super_mario_bros_2/Super Mario Bros. 2.ttf"
+dest_files=["res://.godot/imported/Super Mario Bros. 2.ttf-f0065e4e9187cedb60d0b277781e2f8f.fontdata"]
 
 [params]
 
