@@ -33,7 +33,6 @@ text = "Score :"
 scale = Vector2(13.4203, 26.8704)
 
 [node name="ColorRect" type="ColorRect" parent="."]
-visible = false
 z_index = -1
 offset_left = -792.0
 offset_top = -641.0
@@ -43,7 +42,6 @@ scale = Vector2(38.1202, 36.829)
 color = Color(0, 0, 0, 1)
 
 [node name="LeaderboardUI" parent="." instance=ExtResource("4_vq85v")]
-visible = false
 offset_left = -390.0
 offset_top = -214.0
 offset_right = -390.0

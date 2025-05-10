@@ -1,0 +1,103 @@
+[gd_scene load_steps=7 format=3 uid="uid://b0klhs4qspqql"]
+
+[ext_resource type="Script" uid="uid://oylj63aic6me" path="res://Scenes/Start/start.gd" id="1_u4ub4"]
+[ext_resource type="FontFile" uid="uid://b74med74g5vm7" path="res://Asets/Font/Round9x13.ttf" id="2_fwlxi"]
+[ext_resource type="FontFile" uid="uid://dvcdrug402jnh" path="res://Asets/Font/Blocky5x7.ttf" id="3_u4ub4"]
+
+[sub_resource type="Animation" id="Animation_u4ub4"]
+resource_name = "idle"
+loop_mode = 1
+step = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LineEdit:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+
+[sub_resource type="Animation" id="Animation_yhf63"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LineEdit:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fwlxi"]
+_data = {
+&"RESET": SubResource("Animation_yhf63"),
+&"idle": SubResource("Animation_u4ub4")
+}
+
+[node name="Start" type="Node2D"]
+script = ExtResource("1_u4ub4")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -200.0
+offset_top = -51.0
+offset_right = 207.0
+offset_bottom = 43.0
+theme_override_colors/font_color = Color(0.72549, 0.466667, 0, 1)
+theme_override_fonts/font = ExtResource("2_fwlxi")
+theme_override_font_sizes/font_size = 100
+text = "Runni'N"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -62.0
+offset_top = 67.0
+offset_right = 363.0
+offset_bottom = 168.0
+scale = Vector2(0.289608, 0.289608)
+theme_override_colors/font_color = Color(6.73831e-07, 0.573257, 0.550997, 1)
+theme_override_fonts/font = ExtResource("3_u4ub4")
+theme_override_font_sizes/font_size = 100
+text = "Enter Name"
+
+[node name="Label" type="Label" parent="Label2"]
+layout_mode = 0
+offset_left = 82.8707
+offset_top = 58.7001
+offset_right = 122.871
+offset_bottom = 81.7001
+scale = Vector2(7.67958, 7.67958)
+
+[node name="LineEdit" type="LineEdit" parent="Label2"]
+layout_mode = 0
+offset_left = 37.9824
+offset_top = 103.588
+offset_right = 106.545
+offset_bottom = 134.588
+scale = Vector2(5.10578, 3.23239)
+placeholder_text = "NAME"
+
+[node name="anim" type="AnimationPlayer" parent="Label2"]
+libraries = {
+&"": SubResource("AnimationLibrary_fwlxi")
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(13.4203, 26.8704)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -1
+offset_left = -792.0
+offset_top = -641.0
+offset_right = -752.0
+offset_bottom = -601.0
+scale = Vector2(38.1202, 36.829)
+color = Color(0, 0, 0, 1)
+
+[connection signal="text_submitted" from="Label2/LineEdit" to="." method="_on_line_edit_text_submitted"]
