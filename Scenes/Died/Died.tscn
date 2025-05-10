@@ -1,9 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://bwnxney7phovr"]
+[gd_scene load_steps=5 format=3 uid="uid://bwnxney7phovr"]
 
 [ext_resource type="FontFile" uid="uid://b74med74g5vm7" path="res://Asets/Font/Round9x13.ttf" id="1_afkln"]
+[ext_resource type="Script" uid="uid://clhxqr4cujah1" path="res://Scenes/Died/died.gd" id="1_vq85v"]
 [ext_resource type="FontFile" uid="uid://c4wskl5mnaiki" path="res://Asets/Font/PIXEL FONTS PACK 7 by Mikiz/alkhemikal/Alkhemikal.ttf" id="2_c1ddm"]
+[ext_resource type="PackedScene" uid="uid://dgygkbtm0burn" path="res://addons/quiver_leaderboards/leaderboard_ui.tscn" id="4_vq85v"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_vq85v")
 
 [node name="Label" type="Label" parent="."]
 offset_left = -200.0
@@ -30,6 +33,7 @@ text = "Score :"
 scale = Vector2(13.4203, 26.8704)
 
 [node name="ColorRect" type="ColorRect" parent="."]
+visible = false
 z_index = -1
 offset_left = -792.0
 offset_top = -641.0
@@ -37,3 +41,11 @@ offset_right = -752.0
 offset_bottom = -601.0
 scale = Vector2(38.1202, 36.829)
 color = Color(0, 0, 0, 1)
+
+[node name="LeaderboardUI" parent="." instance=ExtResource("4_vq85v")]
+visible = false
+offset_left = -390.0
+offset_top = -214.0
+offset_right = -390.0
+offset_bottom = -214.0
+leaderboard_id = "runnin-longest-runner-Sfwq"

@@ -8,8 +8,10 @@ extends Node2D
 const JUST_BALL = preload("res://Scenes/ball/just_ball.tscn")
 func _ready():
 	GlobalBeings.connect("multiply",Callable(self,"_multiply"))
+	GlobalBeings.connect("dead",Callable(self,"_dead"))
 	score.start(0.5)
 	heart.start(10)
+
 	
 func _multiply():
 	for i in range(5):
@@ -52,3 +54,7 @@ func _on_d_3_body_entered(body):
 
 func _on_heart_timeout():
 	ball.hearts+=5
+
+func _dead():
+	GlobalBeings.score = ball.score
+	get_tree().change_scene_to_file("res://Scenes/Died/Died.tscn")

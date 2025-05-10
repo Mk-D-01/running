@@ -57,6 +57,9 @@ func up_score(x:int):
 	label.text = 'Score : ' + str(score) + ' Heart : ' + str(hearts)
 	
 func _process(delta):
+	if hearts <= 0:
+		GlobalBeings.emit_signal("dead")
+		
 	path.append(global_position)
 	if path.size() > max_path_length:
 		path.pop_front()
@@ -77,6 +80,7 @@ func _on_jump_timer_timeout():
 	
 func _hit(x):
 	hearts -= x
+	score -= 5
 	label.text = 'Score : ' + str(score) + ' Heart : ' + str(hearts)
 
 
