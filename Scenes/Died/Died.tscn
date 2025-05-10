@@ -47,3 +47,7 @@ offset_top = -214.0
 offset_right = -390.0
 offset_bottom = -214.0
 leaderboard_id = "runnin-longest-runner-Sfwq"
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
