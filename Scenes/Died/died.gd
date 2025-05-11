@@ -13,7 +13,7 @@ func _ready():
 	$Timer.start(0.5)
 	pass # Replace with function body.
 	label_2.text = "Score " + str(score)
-	await Leaderboards.post_guest_score("runnin-longest-runner-Sfwq",45,"dfdfd")
+	await Leaderboards.post_guest_score("runnin-longest-runner-Sfwq",score,name)
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass

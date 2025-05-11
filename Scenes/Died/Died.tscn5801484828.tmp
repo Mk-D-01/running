@@ -47,12 +47,6 @@ offset_top = -214.0
 offset_right = -390.0
 offset_bottom = -214.0
 leaderboard_id = "runnin-longest-runner-Sfwq"
-score_filter = null
-score_offset = null
-score_limit = null
-nearby_count = null
-nearby_anchor = null
-current_player_highlight_color = null
 
 [node name="Timer" type="Timer" parent="."]
 
