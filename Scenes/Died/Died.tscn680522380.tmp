@@ -6,36 +6,24 @@
 [ext_resource type="PackedScene" uid="uid://dgygkbtm0burn" path="res://addons/quiver_leaderboards/leaderboard_ui.tscn" id="4_vq85v"]
 [ext_resource type="Texture2D" uid="uid://cd7kck146xjaa" path="res://Asets/gamepad/switch_a.50dpi.png" id="4_yvqim"]
 
-[node name="Control" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -578.0
-offset_top = -326.0
-offset_right = -578.0
-offset_bottom = -326.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Node2D" type="Node2D"]
 script = ExtResource("1_vq85v")
 
 [node name="Label" type="Label" parent="."]
-layout_mode = 0
-offset_left = 387.0
-offset_top = 247.0
-offset_right = 794.0
-offset_bottom = 341.0
+offset_left = -200.0
+offset_top = -51.0
+offset_right = 207.0
+offset_bottom = 43.0
 theme_override_colors/font_color = Color(0.72549, 0.466667, 0, 1)
 theme_override_fonts/font = ExtResource("1_afkln")
 theme_override_font_sizes/font_size = 100
 text = "THE END"
 
 [node name="Label2" type="Label" parent="."]
-layout_mode = 0
-offset_left = 509.0
-offset_top = 371.0
-offset_right = 916.0
-offset_bottom = 471.0
+offset_left = -78.0
+offset_top = 73.0
+offset_right = 329.0
+offset_bottom = 173.0
 scale = Vector2(0.322501, 0.322501)
 theme_override_colors/font_color = Color(0.72549, 0.466667, 0.752941, 1)
 theme_override_fonts/font = ExtResource("2_c1ddm")
@@ -43,43 +31,42 @@ theme_override_font_sizes/font_size = 100
 text = "Score :"
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(587, 298)
 scale = Vector2(13.4203, 26.8704)
 
 [node name="ColorRect" type="ColorRect" parent="."]
 z_index = -1
-layout_mode = 0
-offset_left = -205.0
-offset_top = -343.0
-offset_right = -165.0
-offset_bottom = -303.0
+offset_left = -792.0
+offset_top = -641.0
+offset_right = -752.0
+offset_bottom = -601.0
 scale = Vector2(38.1202, 36.829)
 color = Color(0, 0, 0, 1)
 
 [node name="Lb" type="Label" parent="."]
-layout_mode = 0
-offset_left = 538.0
-offset_top = 448.0
-offset_right = 642.0
-offset_bottom = 471.0
+offset_left = -49.0
+offset_top = 150.0
+offset_right = 55.0
+offset_bottom = 173.0
 text = "Leader Board"
 
 [node name="Button" type="Button" parent="."]
-layout_mode = 0
-offset_left = 646.0
-offset_top = 436.0
-offset_right = 698.0
-offset_bottom = 488.0
+offset_left = 59.0
+offset_top = 138.0
+offset_right = 111.0
+offset_bottom = 190.0
 icon = ExtResource("4_yvqim")
+
+[node name="LeaderboardUI" parent="." instance=ExtResource("4_vq85v")]
+offset_left = -390.0
+offset_top = -214.0
+offset_right = -390.0
+offset_bottom = -214.0
+leaderboard_id = "runnin-longest-runner-Sfwq"
+score_limit = null
+nearby_count = null
+nearby_anchor = null
 
 [node name="Timer" type="Timer" parent="."]
 
-[node name="LeaderboardUI" parent="." instance=ExtResource("4_vq85v")]
-layout_mode = 1
-offset_left = 12.0
-offset_top = -11.0
-offset_right = 12.0
-offset_bottom = -11.0
-leaderboard_id = "runnin-scanmu-t5nf"
-
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
